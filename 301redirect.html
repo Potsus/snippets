@@ -1,0 +1,10 @@
+<!-- put this inside the top of the body -->
+<script>
+	//change the end date to the date you want to end on.
+	//keep it in this format, it won't work if you don't
+	end = new Date('Wed Mar 01 2017 14:35:09 GMT-0500 (EST)');
+	now = new Date();
+
+	//change {url} to the url you want to redirect to
+	if(end < now) window.location.href = "{url}";
+</script>
